@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Organize Groups",
+    "slug": "organizegroups",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#202024"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.organizegroups"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#202024"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.organizegroups"
+    },
+    "backgroundColor": "#202024",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
